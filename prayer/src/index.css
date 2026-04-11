@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+html{
+  direction: rtl;
+}
+section{
+  background: url(mousq.webp);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.container{
+  width: 650px;
+  background: #a0c2e4;
+  padding: 30px 25px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid #fff;
+
+}
+.top-sec{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 40px;
+}
+.top-sec select{
+  width: 150px;
+  padding:  2px 10px ;
+  border: none;
+  outline: none;
+  background: #315464;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.top-sec h3{
+  font-size: 25px;
+  font-weight: 600;
+  color: #f1f5f7;
+}
+.top-sec .date{
+  width: 150px;
+}
+.date h4{
+  font-size: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+section .prayer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background: #454b52;
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  
+}

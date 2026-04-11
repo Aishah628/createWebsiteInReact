@@ -4,12 +4,25 @@ const Header = () => {
   return (
    
     <header>
-        <h1>Welcome to My Website!</h1>
+      <input placeholder='Search or enter website name'/>
         <nav>
           <a href='#'>Home </a>
-           <a href='#'>About </a>
-            <a href='#'>Contact</a>
+
+          <a href='#'>About </a>
+
+          <a href='#'>Clients</a>
+
+          <a href='#'>Projects</a>
+ 
+          <a href='#'>Blog</a>
+         
+          <a href='#'>Contact</a>
+
         </nav>
+        <section>
+          <a href='#'>Menu</a>
+
+        </section>
     </header>
     
   )
